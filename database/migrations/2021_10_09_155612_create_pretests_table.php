@@ -1,0 +1,42 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreatePretestsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('pretests', function (Blueprint $table) {
+            $table->id();
+            $table->string('user_name');
+            $table->integer('1');
+            $table->integer('2');
+            $table->integer('3');
+            $table->integer('4');
+            $table->integer('5');
+            $table->integer('6');
+            $table->integer('7');
+            $table->integer('8');
+            $table->integer('9');
+            $table->integer('10');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('pretests');
+    }
+}

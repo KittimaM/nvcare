@@ -1,0 +1,126 @@
+body {
+    font-family: 'Signika', sans-serif;
+ }
+.bg-grey {
+    margin-top: 15%;
+    background: #f5b257;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+    width: 80%;
+ }
+ footer {
+        color: rgb(3, 3, 3);
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: rgb(63, 63, 63);
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+.btn-footer {
+    color: rgb(78, 78, 78);
+ 
+   text-decoration: none;
+   border: 1px solid;
+   border-radius: 43px;
+   font-size: 13px;
+   padding: 7px 30px;
+   line-height: 47px;
+}
+.btn-footer:hover {
+   
+   text-decoration: none;
+  
+}
+.form-footer input[type="text"] {
+border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+    
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+    
+    
+    span {
+    position: absolute;
+    left: 180%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    }
+    
+    
+    
+    
+    span:hover:before {
+    top: 10px;
+    left: 10px;
+    }
+    
+    span:hover:after {
+    top: -10px;
+    left: -10px;
+    } 
+    
